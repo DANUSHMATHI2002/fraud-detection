@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project-generated files
+outputs/*
+
+# Large/local datasets
+data/*
+
+# Trained models
+models/*
+
+# Tableau temporary files
+*.twb~
+*.tfl~
+
+# Logs
+*.log
